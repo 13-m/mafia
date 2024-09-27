@@ -1,0 +1,39 @@
+@media (max-height: 1600px) {
+  .container {
+    margin: 0 60px;
+  }
+}
+
+@media (max-height: 1200px) {
+  .view {
+    padding-bottom: 40px;
+  }
+  .view__header {
+    margin-bottom: 40px;
+  }
+  .view__list-pos {
+    gap: 30px 130px;
+  }
+
+  .galery {
+    padding-top: 56px;
+  }
+
+  .galery__wrapp {
+    flex-wrap: wrap;
+  }
+
+  .galery__title {
+    font-size: 58px;
+  }
+
+  .galery__text {
+    font-size: 16px;
+  }
+}
+
+@media (max-height: 1080px) {
+  .galery__inner {
+    align-items: flex-start;
+  }
+}

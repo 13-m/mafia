@@ -27,12 +27,3 @@
   font-style: normal;
   font-display: swap;
 }
-
-@font-face {
-  font-family: "TTRicordi";
-  src: url("../font/TTRicordi-Regular.woff2") format("woff2"),
-    url("../font/TTRicordi-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
