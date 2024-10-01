@@ -45,7 +45,7 @@
   }
 
   .view__header {
-    margin-bottom: 200px;
+    margin-bottom: 210px;
   }
   .view__list-pos {
     flex-direction: column;
@@ -111,7 +111,7 @@
     width: 100%;
   }
 
-  .view__item-pos:nth-child(2) .view__btn {
+  .view__btn {
     order: -1;
     align-self: center;
     margin-bottom: 30px;
@@ -178,7 +178,7 @@
     gap: 20px;
   }
 
-  .view__item-pos:nth-child(2) .view__btn {
+  .view__btn {
     margin-bottom: 40px;
   }
   .view__wrapp-icon {
@@ -236,5 +236,67 @@
 @media (max-width: 720px) {
   .galery__link {
     display: none;
+  }
+}
+@media (max-width: 520px) {
+  .view {
+    background: url("../img/view-fon-mobile.png") no-repeat 84% 12% / 126%
+      #000000;
+  }
+
+  .view__list-pos {
+    gap: 8px;
+  }
+
+  .view__title {
+    line-height: 36px;
+  }
+
+  .view__btn {
+    margin-bottom: 74px;
+    font-size: 17px;
+  }
+
+  .view__item-pos:nth-child(1) {
+    margin-bottom: 20px;
+  }
+
+  .view__item-pos:nth-child(2) {
+    gap: 15px;
+  }
+
+  .view__btn {
+    min-width: 100%;
+    padding: 20px 20px 20px 80px;
+    background: url("../img/logo.svg") no-repeat center left/ contain,
+      linear-gradient(
+        91.04deg,
+        #d09339 0.21%,
+        #f1dba2 34.17%,
+        #ffe8bb 50.03%,
+        #aa7a39 87.39%,
+        #c9a255 99.27%
+      );
+  }
+  .view__text,
+  .view__desc {
+    font-size: 16px;
+  }
+
+  .view__wrapp-text {
+    gap: 0;
+  }
+
+  .galery__title {
+    font-size: 34px;
+  }
+
+  .galery__text {
+    max-width: 80%;
+    line-height: 22px;
+  }
+
+  .galery__footer-wrapp {
+    justify-content: center;
   }
 }
